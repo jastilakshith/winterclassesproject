@@ -38,7 +38,7 @@ class App extends Component {
         let todoList = this.state.todoList;
         return (
             <div className="App">
-                <h2>Todo List</h2>
+                <h2>Trask, Track your tasks</h2>
                 <TodoStats
                     list={todoList}
                     finished={this.state.finished}
